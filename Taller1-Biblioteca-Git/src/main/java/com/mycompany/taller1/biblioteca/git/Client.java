@@ -1,8 +1,5 @@
 package com.mycompany.taller1.biblioteca.git;
 
-
-import com.mycompany.taller1.biblioteca.git.Person;
-
 public class Client extends Person {
 
     // Own attribute

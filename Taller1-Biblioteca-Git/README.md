@@ -1,7 +1,7 @@
 ##Sistema de Gestión de Biblioteca
 Taller 1 - Programación de Computadores III - UPC
 ## Autor
-[Tu nombre completo] - [Tu código de estudiante]
+[Rafael Vega]
 ## Descripción
 Aplicación de consola en Java para gestionar clientes, libros y préstamosde una biblioteca. Almacenamiento en memoria (ArrayList).
 ## Cómo ejecutar

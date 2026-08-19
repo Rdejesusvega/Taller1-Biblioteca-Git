@@ -20,6 +20,8 @@ public class Client extends Person {
     public void setEmail(String email) {
         this.email = email;
     }
+    
+    
 
     // toString for easy printing/debugging
     @Override

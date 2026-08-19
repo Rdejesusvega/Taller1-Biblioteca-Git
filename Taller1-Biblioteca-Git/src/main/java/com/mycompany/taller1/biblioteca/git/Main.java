@@ -61,4 +61,38 @@ public class Main {
             System.out.println("Client not found.");
         }
     }
+    
+    public static void updateClient() {
+        System.out.print("Enter the ID of the client to update: ");
+        String id = sc.nextLine();
+        Client c = findClientById(id);
+
+        if (c != null) {
+            System.out.print("New Name: ");
+            c.setName(sc.nextLine());
+
+            System.out.print("New Phone: ");
+            c.setPhone(sc.nextLine());
+
+            System.out.print("New Email: ");
+            c.setEmail(sc.nextLine());
+
+            System.out.println("Client updated successfully.");
+        } else {
+            System.out.println("Client not found.");
+        }
+    }
+    
+    public static void deleteClient() {
+        System.out.print("Enter the ID of the client to delete: ");
+        String id = sc.nextLine();
+        Client c = findClientById(id);
+
+        if (c != null) {
+            clientes.remove(c);
+            System.out.println("Client deleted successfully.");
+        } else {
+            System.out.println("Client not found.");
+        }
+    }
 }
